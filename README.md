@@ -1,6 +1,8 @@
 # npm-monorepo-example
 
-This repo showcases the [phantom dependency issue](https://rushjs.io/pages/advanced/phantom_deps/) in a npm monorepo.
+This repo showcases the [phantom dependency issue](https://rushjs.io/pages/advanced/phantom_deps/) in a npm monorepo. 
+
+- `date-fns` is being used in `@certa/common` package but not listed in its `package.json`.
 
 ## How to run
 
