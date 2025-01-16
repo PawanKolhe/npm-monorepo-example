@@ -8,6 +8,9 @@
  * 
  * This is bad because the version of `date-fns` being used
  * here is currently dependent on `cypress` package.
+ * 
+ * Removing `cypress` from root `package.json` will change
+ * the version of `date-fns` being used here to v2.
  */
 import { format } from "date-fns";
 
