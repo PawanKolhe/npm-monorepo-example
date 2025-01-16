@@ -13,12 +13,13 @@
   "license": "MIT",
   "author": "Pawan Kolhe <pawan.kolhe18@gmail.com>",
   "scripts": {
-    "start": "npm run start --workspace=@certa/platform"
+    "start": "pnpm --filter @certa/platform start"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "cypress": "^5.0.0"
-  }
-} 
+    "cypress": "catalog:"
+  },
+  "packageManager": "pnpm@9.15.1+sha1.abc117858086cb10ecb54828d180b035cb6c8fdd"
+}

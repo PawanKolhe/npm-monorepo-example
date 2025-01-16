@@ -10,11 +10,11 @@
     "build": "react-scripts build"
   },
   "dependencies": {
-    "@certa/common": "^1.0.0",
-    "date-fns": "^2.30.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "@certa/common": "workspace:*",
+    "date-fns": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-scripts": "catalog:"
   },
   "browserslist": {
     "production": [
