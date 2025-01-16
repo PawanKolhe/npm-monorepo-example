@@ -1,0 +1,24 @@
+{
+  "name": "npm-monorepo-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PawanKolhe/npm-monorepo-example#readme",
+  "bugs": {
+    "url": "https://github.com/PawanKolhe/npm-monorepo-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawanKolhe/npm-monorepo-example.git"
+  },
+  "license": "MIT",
+  "author": "Pawan Kolhe <pawan.kolhe18@gmail.com>",
+  "scripts": {
+    "start": "npm run start --workspace=@certa/platform"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "cypress": "^5.0.0"
+  }
+} 

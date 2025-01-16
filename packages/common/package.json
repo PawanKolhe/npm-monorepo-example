@@ -1,0 +1,12 @@
+{
+    "name": "@certa/common",
+    "version": "1.0.0",
+    "description": "Common utils and components",
+    "license": "MIT",
+    "author": "Pawan Kolhe <pawan.kolhe18@gmail.com>",
+    "type": "module",
+    "module": "src/index.js",
+    "scripts": {},
+    "dependencies": {}
+  }
+  
