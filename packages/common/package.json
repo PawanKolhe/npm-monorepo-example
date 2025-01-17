@@ -8,6 +8,6 @@
   "module": "src/index.js",
   "scripts": {},
   "dependencies": {
-    "date-fns": "catalog:old"
+    "react-intl": "catalog:old"
   }
 }

@@ -2,14 +2,14 @@ packages:
   - packages/*
 
 catalog:
-  # Can be referenced through "catalog"
-  cypress: ^5.0.0
-  date-fns: ^2.30.0
+  # Can be referenced through "catalog:"
+  "@vitejs/plugin-react": ^4.3.4
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-scripts: ^5.0.1
+  react-intl: ^7.1.1
+  vite: ^6.0.7
 
 catalogs:
   # Can be referenced through "catalog:old"
   old:
-    date-fns: ^1.30.1
+    react-intl: ^5.8.0
