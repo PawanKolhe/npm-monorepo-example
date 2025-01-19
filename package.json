@@ -15,11 +15,14 @@
   "scripts": {
     "start": "pnpm --filter @certa/platform start",
     "build": "pnpm --filter @certa/platform build",
-    "preview": "pnpm --filter @certa/platform preview"
+    "preview": "pnpm --filter @certa/platform preview",
+    "syncpack": "syncpack list-mismatches"
   },
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "syncpack": "^13.0.0"
+  },
   "packageManager": "pnpm@9.15.1+sha1.abc117858086cb10ecb54828d180b035cb6c8fdd"
 }
